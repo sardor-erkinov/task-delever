@@ -1,0 +1,88 @@
+.header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 22px 120px;
+    align-items: center;
+    @media only screen and (max-width: 768px) {
+        padding: 12px 32px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        display: flex;
+        gap: 32px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li:first-child {
+        margin-right: 8px;
+        color: #5982E7 !important;
+        font-family: Montserrat, sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 20px; /* 83.333% */
+        letter-spacing: -3px;  
+        a {
+            color: #5982E7 !important;
+        }
+    }
+    a {
+        color: $text-secondary;
+        text-decoration: none;
+    }
+    li {
+        display: inline;
+        color: #000;
+    }
+}
+
+.locationWrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.locationDescription {
+    @include direction-column;
+    gap: 4px;
+}
+
+.featureTitle {
+    font-size: 14px;
+    color: $text-primary;
+}
+
+.featureDescription {
+    font-size: 13px;
+    color: $text-main
+}
+
+.misc {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.langMenu {
+    display: flex;
+    padding: 0 8px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background: #E7F3FC;
+    margin-left: 8px;
+}
+
+.loginBtn {
+    color: $text-main !important;
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 16px;
+}

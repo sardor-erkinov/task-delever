@@ -1,0 +1,23 @@
+.iconBtn {
+    padding: 8px;
+    height: 36px;
+    border-radius: 155px;
+    background-color: #E7F3FC;
+    color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    &:hover {
+        background-color: #d1ebff;
+    }
+    &:active {
+        background-color: #bbe1fe;
+    }
+}
+
+.rounded {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
